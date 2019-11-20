@@ -19,7 +19,7 @@ node {
 												   } 
 												      stage ('deploy'){
 												         echo 'deployment started'
- 													        bat '''copy C:\\Users\\Administrator\\.jenkins\\workspace\\Pipeline_Deployment\\  target\\*.war E:\\Madhu_Devops\\Madhu_softwares\\apache-tomcat-9.0.27-windows-x64\\apache-tomcat-9.0.27\\webapps\\'''
+ 													        bat '''copy C:\\Users\\Administrator\\.jenkins\\workspace\\Pipeline_Deployment\\       target\\*.war E:\\Madhu_Devops\\Madhu_softwares\\apache-tomcat-9.0.27-windows-x64\\apache-tomcat-9.0.27\\webapps\\'''
 														   }
 														      
 														      }
